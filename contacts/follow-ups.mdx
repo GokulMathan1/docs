@@ -1,0 +1,72 @@
+---
+title: "Follow Up on New Contacts and Qualify Leads in MyEventJar"
+sidebarTitle: "Follow-ups & Insights"
+description: "Work every new contact through the 24-hour, 7-day, and 30-day follow-up stages, then qualify them as a lead in MyEventJar."
+---
+
+Every new contact in MyEventJar moves through a structured follow-up cadence, tracked right on their contact card. The **24-hour** stage is a quick message; the **7-day** and **30-day** stages are meetings. Miss a stage's window and the contact is marked **Overdue** for it. Once all three stages are complete, you and the contact each qualify them as a lead — separately, on your own side. This page walks through how the cadence works end to end.
+
+## The Follow-up Stages
+
+Every contact starts in the **New** stage the moment they're added.
+
+<CardGroup cols={3}>
+  <Card title="24-Hour Follow-up" icon="bolt">
+    Send a quick message within 24 hours of adding the contact. Miss the window and the contact is marked **Overdue**.
+  </Card>
+
+  <Card title="7-Day Follow-up" icon="calendar-week">
+    Schedule and hold a meeting within 7 days of adding the contact — your first real touchpoint beyond the opening message.
+  </Card>
+
+  <Card title="30-Day Follow-up" icon="calendar-days">
+    Schedule and hold a second meeting within 30 days of adding the contact. Complete it to become eligible for lead qualification.
+  </Card>
+</CardGroup>
+
+## Tracking Progress on the Contact Card
+
+Expand any contact's card (see [Managing Contacts](/contacts/managing-contacts)) to see their current stage as a circular progress wheel. Tap the **center of the wheel** — the **Tap for Next Stage** control — to jump straight into that stage's action.
+
+<Frame caption="Contact card stage wheel — tap the center for the next action">
+  ![Contact card showing the circular follow-up stage wheel](/images/contact-stage-wheel.png)
+</Frame>
+
+## Sending the 24-Hour Follow-up
+
+Tap the stage wheel's center on a **New** contact to open the follow-up message screen. Customize the drafted message, then tap **Send**.
+
+If you've connected **Email (SMTP)** and/or **WhatsApp (via MyBotify)** under Settings, your message goes out over both automatically — see [App Navigation](/getting-started/app-navigation) for how to connect them under Profile & Settings → Integrations.
+
+Miss the 24-hour window and the contact sits in the **Overdue** category until you send.
+
+## Scheduling the 7-Day and 30-Day Follow-ups
+
+From the 7-day stage onward, the follow-up action is a **meeting** rather than a message. Tap the stage wheel's center — either you or the contact, if they're a MyEventJar user, can trigger this — to open the meeting scheduler:
+
+1. Choose the meeting mode: **Offline** or **Online**.
+2. Pick a date.
+3. Choose a time slot. If the contact is a MyEventJar user, the slots shown come from **their** meeting preferences; if they're not on MyEventJar, your own meeting preferences are used instead. See [Meetings](/meetings/scheduling-meetings) to set yours.
+4. Tap **Schedule Meeting**.
+
+If you've connected your **Google Calendar**, any slots where you're already busy are automatically excluded — and if the contact has connected theirs too, their busy slots are excluded as well. Connecting Google Calendar also auto-generates a meeting link for online meetings. See [App Navigation](/getting-started/app-navigation) for how to connect it under Profile & Settings → Integrations.
+
+Once scheduled, the meeting appears on the contact card for both of you. Either side can **reschedule** it or **mark it complete** — marking it complete automatically advances the contact to the next stage.
+
+The 30-day follow-up works the same way, with a 30-day window instead of 7. Miss either window and that stage is marked **Overdue**.
+
+## Qualifying a Lead
+
+Once the 30-day follow-up is complete, the contact becomes eligible for lead qualification. Unlike the stages before it, qualification is a **one-way, manual step on each side** — you qualify the contact from your account, and if they're a MyEventJar user, they separately qualify you from theirs. Neither side's qualification carries over to the other automatically.
+
+To qualify a contact, open their profile, assign a **Lead Score**, and tap **Qualify**.
+
+## Scheduling Meetings After Qualification
+
+Once a contact is a qualified lead, you're no longer tied to the stage wheel to meet with them — book meetings the normal way, from the **Meetings** tab or the **\+** button in the app bar. See [App Navigation](/getting-started/app-navigation) for a refresher on both.
+
+## Timezones and Calendar Availability
+
+Every meeting slot you're shown is calculated from the other person's meeting preferences and converted into your own timezone automatically. For example, if they've set Dubai as their timezone and are available starting at 9:00 AM their time, and your timezone is set to Asia/Kolkata, you'll see their availability starting at 10:30 AM — no manual conversion needed.
+
+When both of you have Google Calendar connected, each person's existing busy slots are excluded from what the other sees, so you're only ever offered times that genuinely work for both of you.

@@ -1,0 +1,127 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "palm",
+  "name": "MyEventJar",
+  "colors": {
+    "primary": "#1CEB8C",
+    "light": "#1CEB8C",
+    "dark": "#0F8F55"
+  },
+  "favicon": {
+    "light": "/images/Subtract.svg",
+    "dark": "/images/Subtract.svg"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Welcome",
+        "pages": [
+          "welcome"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/overview",
+          "getting-started/create-account",
+          "getting-started/app-navigation"
+        ]
+      },
+      {
+        "group": "Contacts & Networking",
+        "pages": [
+          "contacts/managing-contacts",
+          "contacts/adding-contacts",
+          "contacts/contact-details",
+          "contacts/follow-ups"
+        ]
+      },
+      "digital-business-card",
+      {
+        "group": "Meetings",
+        "pages": [
+          "untitled-page",
+          "meetings/scheduling-meetings",
+          "meetings/meeting-details",
+          "meetings/meeting-history"
+        ]
+      },
+      "networking-scorecard",
+      {
+        "group": "Expense Split",
+        "pages": [
+          "expense-split/splitting-expenses",
+          "expense-split/tracking-payments"
+        ]
+      },
+      {
+        "group": "Business Events",
+        "pages": [
+          "business-events/browsing-events",
+          "business-events/attending-events"
+        ]
+      },
+      "notifications/managing-notifications",
+      {
+        "group": "Settings & Account",
+        "pages": [
+          "settings/account-settings",
+          "settings/zoom_connect"
+        ]
+      },
+      {
+        "group": "FAQ & Troubleshooting",
+        "pages": [
+          "faq/common-questions",
+          "faq/troubleshooting"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@myeventjar.com"
+      },
+      {
+        "href": "https://myeventjar.com",
+        "label": "Visit"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get the App",
+      "href": "https://myeventjar.com/getapp"
+    }
+  },
+  "footer": {
+    "socials": {}
+  },
+  "logo": {
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "appearance": {
+    "strict": false,
+    "default": "system"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "fonts": {
+    "family": "Poppins"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "thumbnails": {
+    "background": "/images/Subtract.svg"
+  },
+  "markdown": {
+    "schema": false
+  }
+}

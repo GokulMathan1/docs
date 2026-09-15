@@ -1,0 +1,121 @@
+{
+  "projectType": "saas",
+  "projectName": "MyEventJar",
+  "projectDescription": "MyEventJar is a personal and professional networking app that helps users manage contacts, share digital business cards, schedule meetings, track expenses, and gain insights from their networking activity.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Welcome",
+        "pages": [
+          "welcome"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/overview",
+          "getting-started/create-account",
+          "getting-started/app-navigation"
+        ]
+      },
+      {
+        "group": "Contacts & Networking",
+        "pages": [
+          "contacts/managing-contacts",
+          "contacts/adding-contacts",
+          "contacts/contact-details"
+        ]
+      },
+      {
+        "group": "Digital Business Card",
+        "pages": [
+          "digital-business-card/overview",
+          "digital-business-card/customize-card",
+          "digital-business-card/sharing-your-card"
+        ]
+      },
+      {
+        "group": "Meetings",
+        "pages": [
+          "meetings/scheduling-meetings",
+          "meetings/meeting-details",
+          "meetings/meeting-history"
+        ]
+      },
+      {
+        "group": "Meeting Preferences",
+        "pages": [
+          "meeting-preferences/availability",
+          "meeting-preferences/default-settings"
+        ]
+      },
+      {
+        "group": "Expense Split",
+        "pages": [
+          "expense-split/overview",
+          "expense-split/splitting-expenses",
+          "expense-split/tracking-payments"
+        ]
+      },
+      {
+        "group": "Business Events",
+        "pages": [
+          "business-events/browsing-events",
+          "business-events/creating-events",
+          "business-events/attending-events"
+        ]
+      },
+      {
+        "group": "Networking Scorecard",
+        "pages": [
+          "networking-scorecard/overview",
+          "networking-scorecard/understanding-your-score"
+        ]
+      },
+      {
+        "group": "Weekly Insights",
+        "pages": [
+          "weekly-insights/overview",
+          "weekly-insights/reading-your-insights"
+        ]
+      },
+      {
+        "group": "Notifications & Reminders",
+        "pages": [
+          "notifications/managing-notifications",
+          "notifications/reminders"
+        ]
+      },
+      {
+        "group": "Settings & Account",
+        "pages": [
+          "settings/account-settings",
+          "settings/privacy-security",
+          "settings/subscription"
+        ]
+      },
+      {
+        "group": "FAQ & Troubleshooting",
+        "pages": [
+          "faq/common-questions",
+          "faq/troubleshooting"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Digital business card creation and sharing",
+    "Contact management and networking",
+    "Meeting scheduling with preference settings",
+    "Expense splitting and payment tracking",
+    "Business event discovery and management",
+    "Networking scorecard and activity scoring",
+    "Weekly networking insights and analytics",
+    "Customizable notifications and reminders"
+  ],
+  "publicApiSurface": []
+}
