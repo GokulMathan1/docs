@@ -6,7 +6,19 @@ description: "Add contacts in MyEventJar via physical visiting card scan, NFC ca
 
 Growing your network in MyEventJar is designed to be fast and flexible, no matter the situation. You might scan a paper visiting card at your desk, tap an NFC-enabled MyEventJar card at an event, add someone manually, scan another user's QR code across the room, or add someone from the attendee list of an event you are at. MyEventJar supports five ways to add contacts.
 
-When you meet someone at a [Business Event](/business-events/overview), they're first added as a **Connection** rather than a full contact — see the **Event Attendees** tab below for how a connection gets converted into a contact.
+<Frame>
+  <img
+    alt="Add Contacts"
+    src="/images/Screenshot_1787140710.png"
+    style={{ maxHeight: "480px", width: "auto", height: "auto", display: "block", objectFit: "contain", margin: "0 auto" }}
+    lightAlt="MyEventJar - Add contacts"
+    darkAlt="MyEventJar - Add contacts"
+    title="Add Contacts"
+    className="dark:hidden"
+  />
+</Frame>
+
+When you meet someone at a [Business Event](business-events/browsing-events), they're first added as a **Connection** rather than a full contact — see the **Event Attendees** tab below for how a connection gets converted into a contact.
 
 <Note>
   **Bulk import is web-only.** To import many contacts at once (CSV upload or phone contacts import), sign in at [myeventjar.com](https://myeventjar.com) and go to **Networking → Import**. The mobile app does not support bulk import.
@@ -38,48 +50,64 @@ When you meet someone at a [Business Event](/business-events/overview), they're 
 
     **To add a contact via NFC:**
 
-    <Steps>
-      <Step title="Unlock your phone">
-        NFC only fires on unlocked devices. Wake your phone and unlock it — you do not need to open MyEventJar first.
-      </Step>
-      <Step title="Tap the NFC card to your phone">
-        Hold the MyEventJar NFC card against the back of your phone (near the top on most devices). Your phone vibrates when the tap is detected.
-      </Step>
-      <Step title="Open the MyEventJar prompt">
-        A notification appears with the contact's name and photo. Tap it to open the contact preview in MyEventJar.
-      </Step>
-      <Step title="Add a note and save">
-        Optionally record where you met, then tap **Add to Contacts**. The contact's full profile is imported instantly.
-      </Step>
-    </Steps>
+    <Columns cols={2}>
+      <Steps>
+        <Step title="Unlock your phone">
+          NFC only fires on unlocked devices. Wake your phone and unlock it — you do not need to open MyEventJar first.
+        </Step>
+        <Step title="Tap the NFC card to your phone">
+          Hold the MyEventJar NFC card against the back of your phone (near the top on most devices). Your phone vibrates when the tap is detected.On Android, you don't need to open the app: just tap the NFC card on the back of your phone, and the contact will be detected automatically so you can save it right away. On iOS, open the app and go to the NFC page first, then tap the card to your iPhone to read and save the contact.
+        </Step>
+        <Step title="Open the MyEventJar prompt">
+          A notification appears with the contact's name and photo. Tap it to open the contact preview in MyEventJar.
+        </Step>
+        <Step title="Add a note and save">
+          Optionally record where you met, then tap **Add to Contacts**. The contact's full profile is imported instantly.
+        </Step>
+      </Steps>
 
-    <Tip>
-      Order your own MyEventJar NFC card from **Profile → My Digital Business Card → Order NFC Card**. When someone taps it, they get your live profile even if they do not have MyEventJar installed.
-    </Tip>
+      <div>
+  <Frame>
+    <img alt="Add Contacts" src="/images/Screenshot_1787140710.png" style={{ maxHeight: "480px", width: "auto", height: "auto", display: "block", objectFit: "contain", margin: "0 auto" }} lightAlt="MyEventJar - Add contacts" darkAlt="MyEventJar - Add contacts" title="Add Contacts" className="dark:hidden" />
+  </Frame>
+
+  <Tip>
+    Make sure NFC is turned on in your phone's settings before using this feature, as it will not work while NFC is disabled. You can also write your own contact details, such as your name, phone number, and email, to your personal NFC card and share them with a simple tap.
+  </Tip>
+</div>
+    </Columns>
   </Tab>
   <Tab title="Manual Entry">
     Manual entry gives you full control over the details you save, making it the best choice when you have a business card in hand, are transcribing from an email signature, or want to add a personal contact with a note.
 
     **To add a contact manually:**
 
-    <Steps>
-      <Step title="Open the Add Contact screen">
-        Tap the **\+** button in the top-right corner of the Contacts tab, then select **Add Manually**.
-      </Step>
-      <Step title="Enter the required details">
-        Fill in the contact's **Name**, **Email**, and **Mobile Number** — these are the only required fields, everything else is optional. New contacts are automatically placed in the **New** stage.
-      </Step>
-      <Step title="Write an introductory note">
-        Use the **Notes** field to capture context while it's fresh — where you met, what you discussed, or a personal detail worth remembering.
-      </Step>
-      <Step title="Save the contact">
-        Tap **Save Contact**. The contact is added to your list immediately and is searchable right away.
-      </Step>
-    </Steps>
+    <Columns cols={2}>
+      <Steps>
+        <Step title="Open the Add Contact screen">
+          Tap the **\+** button in the top-right corner of the Contacts tab, then select **Add Manually**.
+        </Step>
+        <Step title="Enter the required details">
+          Fill in the contact's **Name**, **Email**, and **Mobile Number** — these are the only required fields, everything else is optional. New contacts are automatically placed in the **New** stage.
+        </Step>
+        <Step title="Write an introductory note">
+          Use the **Notes** field to capture context while it's fresh — where you met, what you discussed, or a personal detail worth remembering.
+        </Step>
+        <Step title="Save the contact">
+          Tap **Save Contact**. The contact is added to your list immediately and is searchable right away.
+        </Step>
+      </Steps>
 
-    <Tip>
-      Use the **Duplicate Check** feature — MyEventJar will warn you if a contact with the same mobile number or email already exists, helping you avoid clutter before you save.
-    </Tip>
+      <div>
+  <Frame>
+    <img alt="Add Contacts" src="/images/Screenshot_1787140710.png" style={{ maxHeight: "480px", width: "auto", height: "auto", display: "block", objectFit: "contain", margin: "0 auto" }} lightAlt="MyEventJar - Add contacts" darkAlt="MyEventJar - Add contacts" title="Add Contacts" className="dark:hidden" />
+  </Frame>
+
+  <Tip>
+    Use the **Duplicate Check** feature — MyEventJar will warn you if a contact with the same email already exists, helping you avoid clutter before you save.
+  </Tip>
+</div>
+    </Columns>
 
     <Note>
       If the person you're adding is already a MyEventJar user, adding them also adds you as a connection on their side — it's a two-way action whenever both people are on MyEventJar.
@@ -90,24 +118,32 @@ When you meet someone at a [Business Event](/business-events/overview), they're 
 
     **To scan a QR code:**
 
-    <Steps>
-      <Step title="Open the Scanner">
-        Tap the **\+** button in the Contacts tab and select **Scan QR Code**, or tap the QR icon on the home screen's quick-action bar.
-      </Step>
-      <Step title="Point your camera at their code">
-        Hold your camera steady over the other person's Digital Business Card QR code — on their phone screen, a printed card, or a badge. MyEventJar detects the code automatically without needing to press a shutter button.
-      </Step>
-      <Step title="Review the imported details">
-        A preview card appears showing the contact's name, company, role, and contact details exactly as they have them set in their MyEventJar profile.
-      </Step>
-      <Step title="Add a personal note and save">
-        Optionally jot a quick note about where you met or what you talked about, then tap **Add to Contacts** to save.
-      </Step>
-    </Steps>
+    <Columns cols={2}>
+      <Steps>
+        <Step title="Open the Scanner">
+          Tap the **\+** button in the Contacts tab and select **Scan QR Code**, or tap the QR icon on the home screen's quick-action bar.
+        </Step>
+        <Step title="Point your camera at their code">
+          Hold your camera steady over the other person's Digital Business Card QR code — on their phone screen, a printed card, or a badge. MyEventJar detects the code automatically without needing to press a shutter button.
+        </Step>
+        <Step title="Review the imported details">
+          A preview card appears showing the contact's name, company, role, and contact details exactly as they have them set in their MyEventJar profile.
+        </Step>
+        <Step title="Add a personal note and save">
+          Optionally jot a quick note about where you met or what you talked about, then tap **Add to Contacts** to save.
+        </Step>
+      </Steps>
 
-    <Tip>
-      At events and conferences, set your own QR code to display on your lock screen so others can scan you just as easily. Go to **Profile → My Digital Business Card → Show QR Code** and tap **Add to Lock Screen**.
-    </Tip>
+      <div>
+  <Frame>
+    <img alt="Add Contacts" src="/images/Screenshot_1787140710.png" style={{ maxHeight: "480px", width: "auto", height: "auto", display: "block", objectFit: "contain", margin: "0 auto" }} lightAlt="MyEventJar - Add contacts" darkAlt="MyEventJar - Add contacts" title="Add Contacts" className="dark:hidden" />
+  </Frame>
+
+  <Tip>
+    At events and conferences, set your own QR code to display on your lock screen so others can scan you just as easily. Go to **HomePage → AppBar → Show QR Code**.
+  </Tip>
+</div>
+    </Columns>
 
     <Note>
       When a contact you added via QR code updates their MyEventJar profile (new job, new number), you'll receive a notification and can accept the update with one tap — keeping their record current automatically.

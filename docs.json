@@ -30,8 +30,8 @@
       {
         "group": "Contacts & Networking",
         "pages": [
-          "contacts/managing-contacts",
           "contacts/adding-contacts",
+          "contacts/managing-contacts",
           "contacts/contact-details",
           "contacts/follow-ups"
         ]
@@ -123,5 +123,6 @@
   },
   "markdown": {
     "schema": false
-  }
+  },
+  "description": "MyEventJar is Networking App which is used to convert your Physical Business Card into Digitalized and Stored 1 lakh+ contacts."
 }
